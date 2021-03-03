@@ -1,0 +1,268 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) { 
+ 	#nav {
+ 		z-index: 99;
+ 		max-width: 250px; 
+ 	}
+ 	.logo_box{
+ 		margin-left: 3%;
+ 	}
+ 	.menu {
+ 		right: 3%;
+ 	}
+ 	/*hero section start*/
+ 	.shape {
+ 		height: 350px;
+ 		width: 100%;
+ 	}
+ 	.caption_box {
+ 		height: 400px;
+ 		margin-top: 100px;
+ 		margin-bottom: 0;
+ 	}
+ 	.caption_info {
+ 		text-align: center;
+ 		margin-left: 0;
+ 	}
+ 	.caption_info h1 {
+ 		font-size: 44px;
+ 	}
+ 	.caption_info p {
+ 		font-size: 30px;
+ 	}
+ 	/*hero section end*/
+ 	/*blog section start*/
+ 	#blog {
+ 		margin: 30px 0 50px 0;
+ 	}
+ 	.arrow1 {
+ 		left: 0%;
+ 	}
+ 	.arrow2 {
+ 		right: 0%;
+ 	}
+ 	.main_img {
+ 		margin-top: 15px;
+ 	}
+ 	.text_b {
+ 		font-size: 20px;
+ 	}
+ 	/*blog section end*/
+ 	/*contact section start*/
+ 	#clients {
+ 		margin-bottom: 0;
+ 	}
+ 	.c_head_b h3 {
+ 		font-size: 34px;
+ 	}
+ 	form#contact_form {
+ 		text-align: center;
+ 	}
+ 	.address_info address p {
+ 		letter-spacing: 1px;
+ 		line-height: 21px;
+ 	}
+
+ 	/*contact section end*/
+ 	/*footer section start*/
+ 	.footer_menu ul li a {
+ 		letter-spacing: 1px;
+ 	}
+ 	.social_icons a {
+ 		font-size: 26px;
+ 	}
+ 	/*footer section end*/
+ 	/*================================*/
+ 	/*developement page start*/
+ 	/*================================*/
+ 	/*hero section start*/
+ 	.caption_box2 h2 {
+ 		font-size: 32px;
+
+ 	}
+ 	.per_title h3 a {
+ 		font-size: 35px;
+ 		text-align: center;
+ 		margin-bottom: 30px;
+ 	}
+ 	/*hero section end*/
+ 	/*page header section start*/
+ 	.page_header_box {
+
+ 		margin: 15px 0;
+ 	}
+ 	.arrow3 {
+
+ 		top: -15%;
+ 		left: 9%;
+ 	}
+ 	.arrow4 {
+ 		position: absolute;
+ 		bottom: -12%;
+ 		right: 8%;
+ 	}
+ 	.title_height {
+
+ 		text-align: center;
+ 	}
+ 	/*page header section end*/
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+ 	.logo_box{
+ 		margin-left: 3%;
+ 	}
+ 	.menu {
+ 		right: 3%;
+ 	}
+ 	/*hero section start*/
+ 	.shape{
+ 		height: 340px;
+ 		width: 100% !important;
+ 		background-color: #987285bf;
+ 	}
+ 	.caption_info h1 {
+ 		font-size: 42px;
+ 	}
+ 	.caption_info p {
+ 		font-size: 28px;
+ 	}
+ 	/*hero section end*/
+ 	/*blog section start*/
+ 	#blog {
+ 		margin: 30px 0 50px 0;
+ 	}
+
+ 	.main_img {
+ 		margin-top: 15px;
+ 	}
+ 	.text_b {
+ 		left: 25%;
+ 	}
+ 	/*blog section end*/
+ 	/*contact section start*/
+ 	form#contact_form {
+ 		text-align: center;
+ 	}
+ 	/*contact section end*/
+
+ 	/*================================*/
+ 	/*developement page start*/
+ 	/*================================*/
+ 	/*hero section start*/
+ 	.caption_box2 h2 {
+ 		font-size: 36px;
+ 	}
+ 	/*hero section start*/
+ 	/*project section start*/
+ 	.per_title{
+ 		text-align: center;
+ 	}
+ 	.three_imp{
+ 		margin-right: 10%;
+ 	}
+ 	.p_last_image{
+ 		text-align: center;
+ 	}
+ 	.p_last_image{
+ 		width: 100% !important;
+ 	}
+ 	.three_imp1{
+ 		margin-right: 5%;
+ 	}
+ 	/*project section end*/
+ 	/*page header section start*/
+ 	.page_header_box {
+
+ 		margin: 17px 0;
+ 	}
+ 	/*page header section end*/
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+ 	.logo_box{
+ 		margin-left: 3%;
+ 	}
+ 	.menu {
+ 		right: 3%;
+ 	}
+
+ 	/*hero section start*/
+ 	.shape {
+ 		top: 0;
+ 		height: 450px;
+ 		width: 350px;
+ 	}
+ 	.caption_info h1 {
+ 		font-size: 50px;
+
+ 	}
+ 	.caption_info p {
+ 		font-size: 36px;
+ 	}
+ 	/*hero section end*/
+ 	/*blog section start*/
+ 	#blog {
+ 		margin: 30px 0 50px 0;
+ 	}
+ 	.text_b {
+ 		font-size: 22px;
+ 		left: 10%;
+ 	}
+ 	.arrow2 {
+ 		bottom: 3%;
+ 		right: -4%;
+ 	}
+ 	/*blog section end*/
+ 	/*client section start*/
+ 	.c_head_b h3 {
+ 		font-size: 32px;
+ 	}
+ 	form#contact_form {
+ 		text-align: center;
+ 	}
+ 	/*client section end*/
+ 	/*footer section start*/
+ 	.address_info address p{
+ 		letter-spacing: 1px;
+ 	}
+ 	/*footer section end*/
+
+ 	/*=====================================*/
+ 	/*developement page*/
+ 	/*=====================================*/
+ 	/*project section start*/
+ 	.per_title h3 {
+ 		font-size: 38px;
+ 	}
+ 	/*project section end*/
+
+ 	/*page header section start*/
+ 	.arrow3 {
+ 		position: absolute;
+ 		top: -33%;
+ 		left: -5%;
+ 	}
+ 	.arrow4 {
+ 		position: absolute;
+ 		bottom: -14%;
+ 		right: -4%;
+ 	}
+
+ 	/*page header section end*/
+ 	.last_im p{
+	margin-right: 20%;
+}
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) { 
+ }
